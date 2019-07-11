@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Light_3.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Medium_3.ttf") format("ttf");
+  font-weight: 500;
+}
+
+body {
+	background-color: white;
+	color: #414141;
+	font-family: "IntCircularPro-Light_3", sans-serif;
+	margin: 0px;
+}
+
+td {
+	text-align: center;
+	font-size: 21px;
+	padding: 20px 0px;
+	border-top: 1px dashed #C1C1C1;
+	font-weight: 500;
+}
+
+.headers {
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #787B7D;
+	font-size: 21px;
+	letter-spacing: 3px;
+}
+
+#table-content {
+	max-width: 918px; 
+	width: 100%; 
+	margin: auto;
+	table-layout: fixed;
+}
+
+.WC-column {
+	color: #787B7D;
+}
+
+.office-column {
+	color: #B3B3B3;
+}
+
+
+
+.name-column {
+	width: 35%;
+	text-align: left;
+}
+
+.last {
+	text-align: right;
+}
+
+#page-title {
+	position: fixed;
+	background-color: #16191E;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 90px 0px;
+	margin: 0px;
+}
+
+a {
+	text-align: center;
+	font-size: 31px;
+	padding: 20px 0px;
+	color: 414141;
+	display: block;	
+	-webkit-text-decoration-color: #B8B39D;
+  	text-decoration-color: #B8B39D;
+}
+
+.column-container {
+	margin-top: 0px;
+	display: flex;
+	padding: 0px 80px;
+	margin: auto;
+	justify-content: space-around;
+	margin-bottom: 150px;
+	flex-wrap: wrap;
+}
+
+.title {
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 40px 0px;
+	margin: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+ 
+}
