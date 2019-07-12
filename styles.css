@@ -38,6 +38,7 @@ td {
 	width: 100%; 
 	margin: auto;
 	table-layout: fixed;
+	border-spacing: 0px;
 }
 
 .WC-column {
@@ -53,6 +54,7 @@ td {
 .name-column {
 	width: 35%;
 	text-align: left;
+	padding-left: 20px;
 }
 
 .last {
@@ -106,6 +108,15 @@ a {
 
 .total_pace {
 	text-align: center; 
+}
+
+.row {
+	padding: 0px 30px;
+}
+
+.below-pace {
+	color: #B3B3B3;
+	background-color: #F2F2F2;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -26,16 +26,31 @@ for (var i = 0; i < data.length; i++) {
 
 
 	if (legion.includes(data[i].office)) {
-	$("#table-body").append(
-		'<tr>' +
-		'<td class="name-column">' + data[i].name + '</td>' +
-		'<td class="office-column">' + data[i].office + '</td>' +
-		'<td class="current_points">' + data[i].current_points + '</td>' +
-		'<td class="total_pace">' + data[i].total_pace + '</td>' +
-		'</tr>'
-		);
+		
+		if (parseInt(data[i].total_pace) >= 1950) {
+			$("#table-body").append(
+			'<tr class="row">' +
+			'<td class="name-column">' + data[i].name + '</td>' +
+			'<td class="office-column">' + data[i].office + '</td>' +
+			'<td class="current_points">' + data[i].current_points + '</td>' +
+			'<td class="total_pace">' + data[i].total_pace + '</td>' +
+			'</tr>'
+		); } else if (parseInt(data[i].total_pace) < 1950) {
+		$("#table-body").append(
+			'<tr class = "row below-pace">' +
+			'<td class="name-column">' + data[i].name + '</td>' +
+			'<td class="office-column">' + data[i].office + '</td>' +
+			'<td class="current_points">' + data[i].current_points + '</td>' +
+			'<td class="total_pace">' + data[i].total_pace + '</td>' +
+			'</tr>'
+			); }
+
+		}
+		
+		//if (parseInt(data[i].total_pace) < 3) {
+		//data[i].className = "below-pace"; }
+
+
 	}
 	
-}
-
 }
