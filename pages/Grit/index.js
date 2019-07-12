@@ -46,13 +46,6 @@ for (var i = 0; i < data.length; i++) {
 			); }
 
 		}
-
-	var integer_pace = parseInt(data[i].total_pace, 10);
-	//console.log(integer_pace);
-
-	if (parseInt(data[i].total_pace < 3) {
-		data[i].className += "below-pace";
-	}
 	
 }
 
