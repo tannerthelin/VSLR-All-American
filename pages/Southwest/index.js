@@ -14,7 +14,7 @@ var legion = ["FL-02", "MD-02", "VA-01", "MD-01", "MD-04", "MD-05", "FL-01"];
 var new_england = ["MA-01", "CT-01", "MA-05", "MA-02", "MA-03", "MA-04"];
 var norcal = ["CA-20", "CA-03", "CA-07", "CA-18", "CA-01", "CA-16", "CA-30", "CA-11", "HI-01", "CA-05"];
 var socal = ["CA-14", "CA-21", "CA-09", "CA-02", "CA-04", "CA-12", "CA-10", "CA-06", "CA-15", "CA-13", "CA-17"];
-var southwest = ["NV-03", "UT-01", "CO-01", "NM-01", "AZ-02"];
+var southwest = ["NV-03", "UT-01", "CO-01", "NM-01", "AZ-02", "CA-36"];
 var vivintplus_west = ["CA-Vi", "NV-Vi", "AZ-Vi", "CO-Vi", "NM-Vi"];
 var vivintplus_east = ["FL-Vi", "IL-Vi", "NJ-Vi"];
 
